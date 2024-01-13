@@ -11,13 +11,12 @@ To facilitate responsible data sharing, we aim to transform proprietary geolocat
 
 To initiate this process, will conduct a comprehensive review of related research papers and delve into existing literature to gain insights into prior work and identify areas for future improvement. Subsequently, we will focus on understanding how to validate the synthetic data, ensuring its fidelity to the original dataset, thus providing a reliable foundation for research endeavors.
 
-Some sites I will go through to explore Literature Review:
+Some sites I will go through for now to explore Literature Review:
 1. https://scholar.google.com/
 2. https://www.ieee.org/
 3. https://www.jstor.org/
 4. https://in.sagepub.com/en-in/sas/home
 5. https://dl.acm.org/subject/ai
 6. https://arxiv.org/
-
 
 I plan to meticulously document and cite the papers I review during my research for the project. For each paper, I will provide a concise yet comprehensive paragraph summarizing its key findings and contributions. This approach ensures transparency in my literature review process, allowing for clear attribution of ideas and insights to their respective sources. By incorporating citations in this manner, I aim to build a robust foundation for my own work while acknowledging the valuable contributions of prior research in the field.
