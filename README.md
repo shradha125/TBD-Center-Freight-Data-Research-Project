@@ -11,7 +11,7 @@ To facilitate responsible data sharing, we aim to transform proprietary geolocat
 
 To initiate this process, will conduct a comprehensive review of related research papers and delve into existing literature to gain insights into prior work and identify areas for future improvement. Subsequently, we will focus on understanding how to validate the synthetic data, ensuring its fidelity to the original dataset, thus providing a reliable foundation for research endeavors.
 
-Some sites to explore Literature Review:
+Some sites I will go through to explore Literature Review:
 1. https://scholar.google.com/
 2. https://www.ieee.org/
 3. https://www.jstor.org/
