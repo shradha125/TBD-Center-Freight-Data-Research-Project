@@ -34,6 +34,7 @@ A major challenge of deep learning (DL) is the necessity to collect huge amounts
 Link to the paper: https://dl.acm.org/doi/abs/10.1145/3477314.3507230 
  
 Description:
+
 The data often represent a limited sample of the population and use of the data jeopardizes privacy.
 To address these issues, we present and evaluate a system for generating synthetic mobility data using a deep recurrent neural network (RNN) which is trained on real location data. The system takes a population distribution as input and generates mobility traces for a corresponding synthetic population.
  
@@ -62,6 +63,7 @@ Citation:
 Abreu, L. and Conway, A. (2023) ‘A Qualitative Assessment of the Multimodal Passenger Transportation System Response to COVID-19 in New York City’, Transportation Research Record, 2677(4), pp. 92–104. doi:10.1177/03611981211027149.
 
 Description:
+
 This paper presents a qualitative examination of the alterations to the transportation system that took place in New York City (NYC) between the start of the COVID-19 epidemic and the city's first phase of reopening in June 2020.To 1) identify important issues and challenges and 2) identify changes in policies, services, and infrastructure that occurred in response to five passenger transportation modes—public transportation, taxis, ridesharing, personal driving, cycling, and micromobility—the study was carried out by tracking publicly available transportation-related news articles and publications. Findings were evaluated to determine recurring problems and relationships between modes.
 
 **6.	Title: Large urban freight traffic generators: Opportunities for city logistics initiatives**
@@ -81,7 +83,9 @@ The objective of the paper is to identify and quantify the freight trip generati
 Link: https://dl-acm-org.ccny-proxy1.libr.ccny.cuny.edu/doi/10.1145/3503823.3503833 
 
 Citation:
+
 Panagiotis Valatsos, Thanasis Vafeiadis, Alexandros Nizamis, Dimosthenis Ioannidis, and Dimitrios Tzovaras. 2022. Freight transportation route time prediction with ensemble learning techniques. In Proceedings of the 25th Pan-Hellenic Conference on Informatics (PCI '21). Association for Computing Machinery, New York, NY, USA, 52–57. https://doi-org.ccny-proxy1.libr.ccny.cuny.edu/10.1145/3503823.3503833
 
 Description:
+
 The purpose of this work is to predict the critical time interval cases from the central warehouse to several ending points across Europe of an international freight transportation company. The prediction of time intervals is held utilizing five well known ensemble learning techniques suitable for regression problems: Bagging, Random Forest, Gradient Boosting, Natural Gradient Boosting and Extreme Gradient Boosting based on Normalized Root Mean Square Error as the main evaluation measure.
