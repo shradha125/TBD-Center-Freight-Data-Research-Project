@@ -16,12 +16,12 @@ They are actually consolidating 2 hubs.
 
 The proposed approach involves three main steps: 
 
-***data pretreatment*** - Location data and demand data. 
+***Data*** - Location data and demand data. 
 
-***demand segmentation*** - Clustering k-means. k-medoids (widely thought to be practical and efficient for geocoded data), clara. CLARA repeats the sampling and clustering processes a pre-specified number of times in order to minimize the sampling bias
+***Demand Segmentation*** - Clustering k-means. k-medoids (widely thought to be practical and efficient for geocoded data), clara. CLARA repeats the sampling and clustering processes a pre-specified number of times in order to minimize the sampling bias
 a clustering algorithm includes a similarity feature that seeks to establish k -clusters from geographical data with the intent of minimizing between item dissimilarity within the same cluster and maximizing the inter-clusters dissimilarity. 
 
-***Logistic Demand prediction*** - What behavior do demand involve in while in a zone?
+***Logistic Demand Prediction*** - What behavior do demand involve in while in a zone?
 Answering this question will uncover whether the transportation demand in this zone is certain or not over the long term. Taking into account demand dynamics, zones could react according to different levels: zone boundaries and zone capacity growth.
 
 While machine learning methods, like Artificial Neural Networks (ANN), K-Nearest Neighbour (k-NN) are used for classification and regression, Support Vector Machine (SVM), decision trees and Adaboost classifiers improve the predictive ability with data samples.
