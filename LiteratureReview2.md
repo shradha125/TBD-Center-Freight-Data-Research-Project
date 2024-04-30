@@ -2,9 +2,9 @@
 
 ***Citation:*** J. E. Ouadi, H. Errousso, S. Benhadou, H. Medromi and N. Malhene, "A Machine-Learning Based Approach for Zoning Urban Area in Consolidation Schemes Context," 2020 IEEE 13th International Colloquium of Logistics and Supply Chain Management (LOGISTIQUA), Fez, Morocco, 2020, pp. 1-7, doi: 10.1109/LOGISTIQUA49782.2020.9353901. keywords: {Uncertainty;Urban areas;Transportation;Machine learning;Benchmark testing;Data models;Logistics;urban logistics;freight consolidation;logistics demand;zoning;machine-learning},
 
-Link: https://ieeexplore-ieee-org.ccny-proxy1.libr.ccny.cuny.edu/document/9353901 
+***Link:*** https://ieeexplore-ieee-org.ccny-proxy1.libr.ccny.cuny.edu/document/9353901 
 
-Summary:
+***Summary:***
 This research propose a hybrid machine-learning framework combining several algorithms and the achieved accuracy benchmarks.
 In this paper, the focus is on assessing demand in order to involve consolidation.
     i.e. switching hubs. Aim of this paper proposed a machine-learning framework for creating zones within a city.
