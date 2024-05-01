@@ -26,7 +26,24 @@ To evaluate the forecasting accuracy and compare the selected models, they chose
 The basic idea was to use commodity flows and their geographical distribution as a starting point for locating hubs in a p-hub median problem. Research that is cited here handled a geocoded addresses data and through quantifying the median distance using bivariate statistics, they examined the clustering of locations of the fast-food restaurants. Accuracy of machine-learning algorithms is used for an efficient demand investigation that helps when implementing, over the long-term, mobility systems and networks.  
 
 
-**2. Diffusion Models: A Comprehensive Survey of Methods and Applications**
+**2. Evaluation of machine learning methodologies to predict stop delivery times from GPS data**
+
+***Citation:*** Sebastián Hughes, Sebastián Moreno, Wilfredo F. Yushimito, Gonzalo Huerta-Cánepa, Evaluation of machine learning methodologies to predict stop delivery times from GPS data,
+Transportation Research Part C: Emerging Technologies, Volume 109, 2019, Pages 289-304, ISSN 0968-090X, https://doi.org/10.1016/j.trc.2019.10.018. (https://www.sciencedirect.com/science/article/pii/S0968090X18314645)
+
+***Link:*** https://www.sciencedirect.com/science/article/pii/S0968090X18314645?casa_token=5Gy06HhmjC4AAAAA:A-wJRrlwFvw3baGPsrbsEJFbpUECONalR3zyQXyPZQsyH5s3FkmRuRNz33ArJ_Rt2gyNqcIzXWg  
+
+***Summary:***
+The research aims to predict the stop delivery times (i.e., the time spent at each stop to deliver goods to final receivers). This is done by testing a wide range of machine learning techniques (including different types of ensembles).  
+(1) predict the stop delivery time. - (lasso regression, ridge regression, and elastic net)
+(2) to determine whether the total stop delivery time will exceed a predefined time threshold (classification approach). - naive Bayes, logistic regression, K-nearest neighbors, support vector machines, classification trees, and neural networks.
+
+The resulting contributions are twofold. First, we leverage operational data collected directly from GPS traces provided by a company that provides routing solutions in Latin America to evaluate the machine learning models. This approach also allows us to include operations-related data in the prediction (i.e., demand, number of clients visited in a stop).
+
+Evaluated based on  accuracy and F1 score (harmonic mean between precision and recall).
+
+
+**3. Diffusion Models: A Comprehensive Survey of Methods and Applications**
 
 ***Citation:*** Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Wentao Zhang, Bin Cui, and Ming-Hsuan Yang. 2023. Diffusion Models: A Comprehensive Survey of Methods and Applications. ACM Comput. Surv. 56, 4, Article 105 (April 2024), 39 pages. https://doi.org/10.1145/3626235
 
