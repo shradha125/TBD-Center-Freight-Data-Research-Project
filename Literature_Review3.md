@@ -32,6 +32,33 @@ The error is reduced to about 11% when the mean speed sequences of first 5 minut
  The error is reduced by about 5% when it is compared to pre-start predictions without using any amount of real-time information.
 
 
+**2. Truck Parking Occupancy Prediction: XGBoost-LSTM Model Fusion**
 
+***Citation:***
+Gutmann, S., Maget, C., Spangler, M. and Bogenberger, K., 2021. Truck parking occupancy prediction: Xgboost-LSTM model fusion. Frontiers in Future Transportation, 2, p.693708.
 
+***Link:*** https://www.frontiersin.org/articles/10.3389/ffutr.2021.693708/full 
+
+***Summary:***
+
+For haul truck drivers it is becoming increasingly difficult to find appropriate parking at the end of a shift. Proper, legal, and safe overnight parking spots are crucial for truck drivers in order for them to be able to comply with Hours of Service regulation, reduce fatigue, and improve road safety. Truck drivers ultimately need to know whether parking spots will be available at a downstream stop at their expected arrival time. 
+The aim of this study was therefore to develop a prediction model that does not require additional data sources other than historic truck parking occupancy yet still provides high accuracy. Furthermore, the model was tested with real-world data with all its complexities and it performed well.
+
+***Data:*** 
+Occupancy data (Count) of a truck parking facility in Germany. 5 lakhs of data records was used, each consisting of a local timestamp and an occupancy value.  
+
+***Methodology:***
+
+Proposed machine-learning-based model that is capable of accurately predicting occupancy 30, 60, 90, and 120 min ahead. The model is based on the fusion of Extreme Gradient Boosting (XGBoost) and Long Short-Term Memory (LSTM) With Feed-Forward Neural Network.
+Take the predicted output of (I) XGBoost and (II) LSTM in combination with a subset of the original features used for training I and II to develop an even stronger meta-model. Model training for both XGBoost and LSTM is performed with mean-square error (MSE) loss function averaging multioutput uniformly. 
+The feed-forward neural network is trained with the same loss function. The resulting model is referred to as the Truck Parking Prediction (TPP) model. With this type of model fusion, the feed-forward neural network learns to dynamically weight the predictions of the XGBoost and the LSTM model.
+
+In summary, grid search is performed in order to find the best set of hyper-parameters. By using cross-validation restricted to the first half of the data, ensured that no knowledge about the hold out test set is leaked into the TPP model. 
+
+***Evaluation:***
+Four different error metrics are used to evaluate the performance of the models: 
+Root-Mean-Square Error (RMSE)
+Mean-Square Error (MSE)
+Mean-Absolute Error (MAE) 
+Median-Absolute Error (MedAE)
 
