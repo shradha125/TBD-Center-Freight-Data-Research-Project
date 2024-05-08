@@ -1,4 +1,4 @@
-**Freight travel speed using Machine Learning**
+**1. Freight Vehicle Travel Time Prediction Using Gradient Boosting Regression Tree**
 
 ***Citation:*** X. Li and R. Bai, "Freight Vehicle Travel Time Prediction Using Gradient Boosting Regression Tree," 2016 15th IEEE International Conference on Machine Learning and Applications (ICMLA), Anaheim, CA, USA, 2016, pp. 1010-1015, doi: 10.1109/ICMLA.2016.0182. keywords: {Trajectory;Regression tree analysis;Boosting;Predictive models;Companies;Data models;Transportation;gradient boosting regression tree;GBRT;decision tree;machine learning;data mining;travel time prediction;freight vehicle;trajectory},
 
