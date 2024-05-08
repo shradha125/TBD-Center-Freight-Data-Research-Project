@@ -45,7 +45,7 @@ For haul truck drivers it is becoming increasingly difficult to find appropriate
 The aim of this study was therefore to develop a prediction model that does not require additional data sources other than historic truck parking occupancy yet still provides high accuracy. Furthermore, the model was tested with real-world data with all its complexities and it performed well.
 
 ***Data:*** 
-Occupancy data (Count) of a truck parking facility in Germany. 5 lakhs of data records was used, each consisting of a local timestamp and an occupancy value.  
+Occupancy data (Count) of a truck parking facility in Germany. 5,00,000 of data records was used, each consisting of a local timestamp and an occupancy value.  
 
 ***Methodology:***
 
