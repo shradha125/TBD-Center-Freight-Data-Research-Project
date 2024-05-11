@@ -46,3 +46,8 @@ following five time bins:
  Average of all hours: 12 a.m. – 11:59 p.m
 
 Average speeds were calculated for each segment during each time period.
+
+
+2. https://www.researchgate.net/profile/Vince-Bernardin/publication/378036330_Expanding_Truck_GPS-based_Passive_Origin-Destination_Data_in_Iowa_and_Tennessee/links/65c408661e1ec12eff7bce32/Expanding-Truck-GPS-based-Passive-Origin-Destination-Data-in-Iowa-and-Tennessee.pdf
+
+Search Term: transportation ATRI dataset in machine learning -> Google Scholar
