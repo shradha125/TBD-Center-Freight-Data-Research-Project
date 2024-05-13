@@ -47,6 +47,9 @@ following five time bins:
 
 Average speeds were calculated for each segment during each time period.
 
+***Algorithm:***
+![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/b6c60992-bd97-4f52-b064-c922ee631f81)
+
 
 2. https://www.researchgate.net/profile/Vince-Bernardin/publication/378036330_Expanding_Truck_GPS-based_Passive_Origin-Destination_Data_in_Iowa_and_Tennessee/links/65c408661e1ec12eff7bce32/Expanding-Truck-GPS-based-Passive-Origin-Destination-Data-in-Iowa-and-Tennessee.pdf
 
