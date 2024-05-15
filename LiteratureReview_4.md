@@ -36,6 +36,7 @@ Average speeds were calculated for each segment during each time period.
 
 https://www.researchgate.net/profile/Vince-Bernardin/publication/378036330_Expanding_Truck_GPS-based_Passive_Origin-Destination_Data_in_Iowa_and_Tennessee/links/65c408661e1ec12eff7bce32/Expanding-Truck-GPS-based-Passive-Origin-Destination-Data-in-Iowa-and-Tennessee.pdf
 
+Understanding the representativeness of ATRI’s truck GPS data and how to weight or expand it for use in forecasting models and other analyses.
 
 Search Term: transportation ATRI dataset in machine learning -> Google Scholar
 
