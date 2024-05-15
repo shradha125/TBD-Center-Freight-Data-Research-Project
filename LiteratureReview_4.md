@@ -47,7 +47,7 @@ Search Term: transportation ATRI dataset in machine learning -> Google Scholar
 ***Link:*** https://arxiv.org/abs/2208.09399
 
 ***Description:***
-Dataset: Electricity Transformer dataset: Electricity Transformer Dataset
+Dataset: Electricity Transformer dataset: https://github.com/AI4HealthUOL/SSSD/blob/main/src/get_data.py 
 
 Provide imputations for different missingness scenarios that are not only quantitatively but even qualitatively superior.
 Address these shortcomings by proposing a new generative-model-based approach for time series imputation. 
