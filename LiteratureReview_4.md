@@ -38,3 +38,18 @@ https://www.researchgate.net/profile/Vince-Bernardin/publication/378036330_Expan
 
 
 Search Term: transportation ATRI dataset in machine learning -> Google Scholar
+
+
+**Title: Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models**
+
+***Citation:*** Alcaraz, J.M.L. and Strodthoff, N., 2022. Diffusion-based time series imputation and forecasting with structured state space models. arXiv preprint arXiv:2208.09399.
+
+***Link:*** https://arxiv.org/abs/2208.09399
+
+***Description:***
+Dataset: Electricity Transformer dataset: Electricity Transformer Dataset
+
+Provide imputations for different missingness scenarios that are not only quantitatively but even qualitatively superior.
+Address these shortcomings by proposing a new generative-model-based approach for time series imputation. 
+
+Also, proposed a simple yet powerful methodology in which the noise of the diffusion process is introduced just to the regions to be imputed, which turns out to be superior to approaches proposed in the context of image inpainting.
