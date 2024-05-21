@@ -17,6 +17,12 @@
 **Description:**
 code and pre-trained models at https://github.com/openai/improved-diffusion 
 
+Detailed Mechanics of the Approach
+
+Forward and Reverse Processes:
+
+- In the forward process, Gaussian noise is added to the data at each step, gradually destroying the data structure until it becomes nearly isotropic Gaussian noise.
+- The reverse process attempts to recover the original data from the noisy version by learning a parameterized distribution for each step. This process is modeled by a neural network that predicts the mean and variance of the reverse distribution.
 
 
 ### Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models
