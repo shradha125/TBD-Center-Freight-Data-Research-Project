@@ -23,7 +23,54 @@ Forward and Reverse Processes:
 
 - In the forward process, Gaussian noise is added to the data at each step, gradually destroying the data structure until it becomes nearly isotropic Gaussian noise.
 - The reverse process attempts to recover the original data from the noisy version by learning a parameterized distribution for each step. This process is modeled by a neural network that predicts the mean and variance of the reverse distribution.
+- The network is trained using a combination of objectives, including a simplified objective and a variational lower bound (VLB)
+- The learned variances and hybrid objective allow the model to achieve high-quality samples with fewer steps, reducing the computational cost of sampling.
 
+Variational Lower Bound (VLB) and Hybrid Objective:
+
+The Variational Lower Bound (VLB) is a crucial component in training Denoising Diffusion Probabilistic Models (DDPMs). It ensures that the model learns to approximate the true data distribution accurately. 
+
+***The VLB is designed to ensure the model learns an accurate approximation of the true data distribution by minimizing the KL divergence between the true and learned reverse processes.*** The hybrid objective, which combines the VLB with a simplified noise prediction objective, provides stable gradients and better performance. This combination helps the model achieve high-quality samples and good log-likelihoods, making the training process more efficient and effective.
+
+Cosine Noise Schedule in DDPMs:
+
+- The cosine noise schedule is an innovative approach introduced to improve the efficiency and quality of Denoising Diffusion Probabilistic Models (DDPMs).
+- Purpose of the Noise Schedule: It determines the amount of noise added to the data at each step in the forward process of diffusion models. Proper scheduling is crucial as it influences how well the model can learn to denoise the data during the reverse process.
+
+Estimate Loss Contributions: Track and update the loss contributions for each timestep during training.
+Calculate Sampling Probabilities: Compute the sampling probabilities based on the estimated loss contributions.
+Sample Timesteps: During each training iteration, sample timesteps according to the computed probabilities instead of uniformly.
+By focusing on more critical timesteps, the model can learn more effectively and reduce the overall training time.
+
+***Training the model***
+Step 1: Define the Forward Diffusion Process
+- Set the total number of timesteps T.
+- Define noise schedule, linear or cosine. Cosine is often used for improved performance.
+- The forward process that adds Gausian noise to the data.
+  
+Step 2: Formulate the Reverse Process
+- Parameterize the Reverse Process by a neural network, predicting mean and variance.
+- Predict noise.
+
+Step 3: Define the Loss Functions
+- Simplified objective: directly minimizes the difference between the true noise and the predicted noise.
+- Variational Lower Bound (VLB): ensures that the learned reverse process approximates the true reverse process
+- Hybrid objective: combines the simplified objective with the VLB to balance stability and accuracy.
+
+Step 4: Importance Sampling
+- Estimate the contribution of each timestep 𝑡 to the overall loss and adjust the sampling probabilities accordingly.
+- Maintain a running history of loss values to dynamically update the sampling probabilities.
+- During each training iteration, sample timesteps dynamically according to the computed probabilities
+
+Step 5: Train the Model
+- Initialize the neural network with parameters 𝜃.
+- Choose an optimizer (e.g., Adam) and set the learning rate.
+- Training loop: For each training iteration, Sample Data, Forward Process, Compute Loss, Backpropagation
+- Monitor training progress using metrics like the log-likelihood, sample quality (e.g., FID), and gradient noise scales.
+- Adjust hyperparameters if necessary to stabilize and improve training.
+- After training, evaluate the model’s performance using a reduced number of sampling steps.
+- Assess the quality of generated samples using metrics such as FID and precision-recall.
+- Fine-tune the noise schedule and sampling strategy if needed to balance speed and quality.
 
 ### Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models
 
