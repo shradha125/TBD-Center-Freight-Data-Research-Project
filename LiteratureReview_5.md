@@ -14,7 +14,7 @@
   pdf = 	 {http://proceedings.mlr.press/v139/nichol21a/nichol21a.pdf},
   url = 	 {https://proceedings.mlr.press/v139/nichol21a.html},
 
-**Description:**
+**Description:** 
 code and pre-trained models at https://github.com/openai/improved-diffusion 
 
 Detailed Mechanics of the Approach
@@ -76,6 +76,8 @@ Step 5: Train the Model
 ### Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models
 
 **Link:** https://arxiv.org/pdf/2208.09399
+
+***GitHub Repo*** https://github.com/AI4HealthUOL/SSSD 
 
 **Description:**
 Various datasets (ECG, MuJoCo, Electricity) under different missingness scenarios.
