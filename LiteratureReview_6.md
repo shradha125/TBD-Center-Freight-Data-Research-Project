@@ -4,5 +4,6 @@
 ISSN 2405-9595, https://doi.org/10.1016/j.icte.2022.02.001. (https://www.sciencedirect.com/science/article/pii/S2405959522000200)
 
 **Summary:**
-![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/ef08c320-1779-44e2-a480-940529f85eaa)
+![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/539fd88b-01dc-463a-b458-5a3325e98a30)
+
 
