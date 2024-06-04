@@ -65,15 +65,15 @@ Volume 117, 2024, 103900, ISSN 0966-6923, https://doi.org/10.1016/j.jtrangeo.202
 
 1. Rank-Size Distribution and Log-Odds Ratio:
 
-- Analyzed the spatial concentration and temporal heterogeneity of parking events using these statistical methods.
+    - Analyzed the spatial concentration and temporal heterogeneity of parking events using these statistical methods.
 
 2. Random Forest Regression:
 
-- Employed to model the relationship between parking behaviors and urban functions. This method helps to capture nonlinear relationships and assess the importance of different features.
+    - Employed to model the relationship between parking behaviors and urban functions. This method helps to capture nonlinear relationships and assess the importance of different features.
 
 3. SHapley Additive exPlanations (SHAP):
 
-- Used to interpret the Random Forest model results. SHAP values indicate the contribution of each feature to the model’s predictions, providing insights into which urban functions most influence parking behaviors.
+    - Used to interpret the Random Forest model results. SHAP values indicate the contribution of each feature to the model’s predictions, providing insights into which urban functions most influence parking behaviors.
 
 **Results and Visualization**
 
