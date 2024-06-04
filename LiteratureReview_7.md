@@ -4,6 +4,7 @@ Handle GPS tracking data from maritime ships, specifically mentioning the use of
 AIS is a tracking system used by ships traffic services to identify and locate vessels by electronically exchanging data with other nearby ships, base stations, and satellites. So the maritime trajectory data likely comes from AIS transmissions of ship positions over time, which utilizes GPS for positioning.
 
 **Data Preprocessing**
+
 ***Frequent Region Extraction***
 
 A grid-based clustering approach is used to extract frequent regions from the trajectory data, representing areas frequently visited by ships. 
