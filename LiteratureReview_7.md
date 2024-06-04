@@ -7,18 +7,18 @@ Volume 117, 2024, 103900, ISSN 0966-6923, https://doi.org/10.1016/j.jtrangeo.202
 ***Summary:***
 
 **Data Collection**
-- - GPS Trajectory Data: The study used GPS trajectory data from GoGoX, recording the movements of registered vehicles from July 1 to August 1, 2017.
-  - This data is used to identify parking events by detecting periods where vehicles remain stationary for a specified duration.
+-  GPS Trajectory Data: The study used GPS trajectory data from GoGoX, recording the movements of registered vehicles from July 1 to August 1, 2017.
+    - This data is used to identify parking events by detecting periods where vehicles remain stationary for a specified duration.
     
   ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/dcdebb4c-5279-4515-8f7c-e546af75e3e6)
 
-- - POIs (Points of Interest) Data: Collected 319,799 Points of Interest (POIs) from the AutoNavi API, reclassified into eight categories to represent various urban functions.
+- POIs (Points of Interest) Data: Collected 319,799 Points of Interest (POIs) from the AutoNavi API, reclassified into eight categories to represent various urban functions.
   - This data helps to understand the relationship between parking behaviors and urban functions.
   - The density of POIs in different categories is used as features in the Random Forest regression analysis to determine their impact on parking patterns.
 
     ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/1f9361a7-2758-4ba5-8076-d4926a83690e)
 
-- - NSR (No Stopping Restriction) Data and Traffic Signs: Integrated No Stopping Restriction (NSR) data and traffic signs to identify roads where parking is prohibited.
+- NSR (No Stopping Restriction) Data and Traffic Signs: Integrated No Stopping Restriction (NSR) data and traffic signs to identify roads where parking is prohibited.
   - This data is used to identify and analyze illegal parking events.
     
     ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/08fd7248-0ec5-4feb-aeff-10c0e7450e19)
