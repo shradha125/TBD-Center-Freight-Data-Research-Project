@@ -80,3 +80,4 @@ Volume 117, 2024, 103900, ISSN 0966-6923, https://doi.org/10.1016/j.jtrangeo.202
 - Spatial and Temporal Patterns: Mapped and analyzed the distribution of parking events, highlighting high-demand areas and illegal parking hotspots.
 - Impact Analysis: Assessed how different urban functions (e.g., industrial, dining) affect parking behaviors using Random Forest and SHAP.
 
+The study maps where and when parking events occur, identifies illegal parking hotspots, and assesses how different urban functions, like industrial or dining areas, affect parking. Using machine learning models, the research predicts parking patterns and provides insights to help urban planners improve parking management and reduce illegal parking.
