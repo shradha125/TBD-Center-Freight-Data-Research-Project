@@ -10,7 +10,7 @@ Volume 117, 2024, 103900, ISSN 0966-6923, https://doi.org/10.1016/j.jtrangeo.202
 - - GPS Trajectory Data: The study used GPS trajectory data from GoGoX, recording the movements of registered vehicles from July 1 to August 1, 2017.
   - This data is used to identify parking events by detecting periods where vehicles remain stationary for a specified duration.
     
-  ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/b619055f-e6a8-4a8a-b608-2fd5718129b1)
+  ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/dcdebb4c-5279-4515-8f7c-e546af75e3e6)
 
 - - POIs (Points of Interest) Data: Collected 319,799 Points of Interest (POIs) from the AutoNavi API, reclassified into eight categories to represent various urban functions.
   - This data helps to understand the relationship between parking behaviors and urban functions.
