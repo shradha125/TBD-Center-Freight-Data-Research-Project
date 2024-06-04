@@ -34,4 +34,21 @@ The frequent region clustering is performed iteratively using a quarter-partitio
 - MinTs: Minimum number of trajectory segments for a cell to be considered a frequent region
 - minCover: Minimum coverage (fraction of trajectories) that must be achieved by the extracted frequent regions
 
-Frequent maritime regions are extracted by grid-partitioning, computing segment-based density, and iteratively clustering dense cells while meeting the MinTs and minCover criteria to capture as many frequently visited areas as possible.
+**Feature Engineering**
+
+***3 outlying features are engineered to characterize trajectories based on deviations from learned patterns***
+
+- Spatial Outlying Feature: 
+  Anomalies where a vessel visits a sparse or low-density region that is infrequently visited by other vessels based on historical data.
+
+- Sequential Outlying Feature:
+  The sequence of transitions between locations
+
+- Behavioral Outlying Feature: 
+  Anomalies in the motion dynamics like speed and direction. If the behavioral vector pi(t-1)pi(t) deviates significantly from typical clustered patterns for that transition, it is       considered a behavioral anomaly.
+
+This involves computing probabilities, conditional probabilities, and distances from clustered centroids. 
+
+The key evaluation metrics: 
+Accuracy: Proximity of detected anomalies to true injected anomalies.
+
