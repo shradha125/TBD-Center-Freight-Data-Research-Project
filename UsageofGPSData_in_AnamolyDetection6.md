@@ -1,5 +1,7 @@
 ## A framework for anomaly detection in maritime trajectory behavior
 
+***Citation:*** 
+Lei, PR. A framework for anomaly detection in maritime trajectory behavior. Knowl Inf Syst 47, 189–214 (2016). https://doi.org/10.1007/s10115-015-0845-4
 
 Handle GPS tracking data from maritime ships, specifically mentioning the use of AIS (Automatic Identification System) data.
 AIS is a tracking system used by ships traffic services to identify and locate vessels by electronically exchanging data with other nearby ships, base stations, and satellites. So the maritime trajectory data likely comes from AIS transmissions of ship positions over time, which utilizes GPS for positioning.
