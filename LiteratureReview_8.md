@@ -41,6 +41,15 @@ Occupancy 2 mins ago,Occupancy 3 mins ago,Occupancy 4 mins ago,Occupancy 5 mins 
 #### Target Variable (Calculated)
 Target Variable (Seconds until no spots)
 
+Others:
+https://journals-sagepub-com.ccny-proxy1.libr.ccny.cuny.edu/doi/full/10.1177/03611981221101893 
 
+https://ascelibrary.org/doi/full/10.1061/JTEPBS.0000073?casa_token=FeDRWwAZqmIAAAAA%3AuNTvE3_9yQEyXrK8_x3HJ8eKHj0gGsVlVuCwr81Sdg4bQ2nTbWT17x0Zoef_UkEeQp4GA4lO-oI
+
+https://journals.sagepub.com/doi/full/10.1177/03611981221103597
+
+https://ieeexplore-ieee-org.ccny-proxy1.libr.ccny.cuny.edu/stamp/stamp.jsp?tp=&arnumber=9353890
+
+https://ieeexplore-ieee-org.ccny-proxy1.libr.ccny.cuny.edu/stamp/stamp.jsp?tp=&arnumber=9582619
 
   
