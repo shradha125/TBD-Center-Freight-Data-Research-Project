@@ -16,8 +16,12 @@ The goal was to predict the demand for loading zones at various future time hori
 -  **Occupancy Calculation:** For each timestamp, the occupancy of a loading zone is calculated as the total number of parking spots minus the number of vehicles parked.
 -  **Feature Vectors:** Feature vectors are created for each loading zone. These vectors include lagged values of the target variable (the time until there are no available spots). These lags help capture both short-term and long-term temporal patterns.
     -   Short-term Lags: Lagged values of the target variable for 2 to 5 minutes to capture immediate past patterns.
-    -   Long-term Lags: Lagged values for one to four weeks to account for weekly and monthly variations, such as those caused by holidays or other special dates
+        For instance, if we are predicting the demand at 10:00 AM, short-term lags might include the number of vehicles parked at 9:55 AM, 9:56 AM, 9:57 AM, 9:58 AM, and 9:59 AM.
+    -   Long-term Lags: Lagged values for one to four weeks to account for weekly and monthly variations, such as those caused by holidays or other special dates.
+        For example, the number of vehicles parked at the same time on previous days or weeks (e.g., 10:00 AM one day ago, one week ago, etc.).
 -  **Target Variable:** The target variable is a continuous variable representing the time (in seconds) until no spots are available. This is calculated for different prediction horizons: 1 minute, 5 minutes, 15 minutes, and 60 minutes into the future.
+      Example: Current Time: 10:00 AM, prediction Horizon: 15 minutes (until 10:15 AM). Time until no spots are available: 810 seconds (if the last spot is occupied at 10:13:30 AM)
+
 
 ***Modeling***
 - **Baseline Model: Linear regression**. Performed well for short-term predictions (e.g., 1 minute ahead) where the time series data exhibited more linear patterns.
