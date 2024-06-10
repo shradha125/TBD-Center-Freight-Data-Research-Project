@@ -22,10 +22,10 @@ The goal was to predict the demand for loading zones at various future time hori
 ***Modeling***
 - **Baseline Model: Linear regression**. Performed well for short-term predictions (e.g., 1 minute ahead) where the time series data exhibited more linear patterns.
 - **Neural Networks:** To capture more complex patterns in the data.
-      -- Multilayer Perceptron (MLP): Captured complex non-linear relationships in the data.
-      -- Long Short-Term Memory (LSTM): Particularly used for longer prediction horizons (e.g., 15 minutes and 60 minutes ahead).
-      -- Combination Models: A combination of LSTM and MLP layers is also tested to leverage both short-term and long-term temporal patterns.
-      -- Probabilistic Neural Networks: Effective in capturing the variability in loading zone demand.
+      - - Multilayer Perceptron (MLP): Captured complex non-linear relationships in the data.
+      - - Long Short-Term Memory (LSTM): Particularly used for longer prediction horizons (e.g., 15 minutes and 60 minutes ahead).
+      - - Combination Models: A combination of LSTM and MLP layers is also tested to leverage both short-term and long-term temporal patterns.
+      - - Probabilistic Neural Networks: Effective in capturing the variability in loading zone demand.
 
 ***Evaluation Matrics***
 Mean Absolute Error (MAE), Root Mean Square Error (RMSE).
