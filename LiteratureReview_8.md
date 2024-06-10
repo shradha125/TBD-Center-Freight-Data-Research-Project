@@ -42,7 +42,7 @@ Occupancy 2 mins ago,Occupancy 3 mins ago,Occupancy 4 mins ago,Occupancy 5 mins 
 Target Variable (Seconds until no spots)
 
 Others:
-https://journals-sagepub-com.ccny-proxy1.libr.ccny.cuny.edu/doi/full/10.1177/03611981221101893 
+https://dl-acm-org.ccny-proxy1.libr.ccny.cuny.edu/doi/10.1145/3421537.3421540
 
 https://ascelibrary.org/doi/full/10.1061/JTEPBS.0000073?casa_token=FeDRWwAZqmIAAAAA%3AuNTvE3_9yQEyXrK8_x3HJ8eKHj0gGsVlVuCwr81Sdg4bQ2nTbWT17x0Zoef_UkEeQp4GA4lO-oI
 
