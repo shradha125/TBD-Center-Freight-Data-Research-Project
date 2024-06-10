@@ -34,5 +34,13 @@ The goal was to predict the demand for loading zones at various future time hori
 ***Evaluation Matrics***
 Mean Absolute Error (MAE), Root Mean Square Error (RMSE).
 
+# Given Data
+Timestamp,Time of Day,Day of Week,Date,Weather,Traffic Condition,Special Event,
+# Calculated Data
+Occupancy 2 mins ago,Occupancy 3 mins ago,Occupancy 4 mins ago,Occupancy 5 mins ago,Occupancy same time yesterday,Occupancy same time last week,Current Occupancy,Avg Occupancy Last 15 mins,Avg Occupancy Last Hour,Occupancy Rate (last 15 mins),
+# Target Variable (Calculated)
+Target Variable (Seconds until no spots)
+
+
 
   
