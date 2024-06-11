@@ -64,10 +64,10 @@ Study aims to address the mismatch between truck parking needs and the availabil
 1. **Cleaning GPS Data:**
     - Stop Identification: Defined by truck speed (≤2 mph) and distance criteria (DX ≤ 40 ft and DXmax ≤ 100 ft). Stops must last more than 10 minutes to be considered.
     - Filtering Errors: Removing GPS points with unrealistic locations due to signal bouncing or loss.
-    - 
+      
 2. **Combining Datasets:**
    - Integrate GPS stops data with land use, traffic, and weather data to create a comprehensive dataset for analysis.
-   - 
+     
 3. **Handling Missing Values**
    - Imputation
 
