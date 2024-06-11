@@ -2,6 +2,8 @@
 
 ***Citation:*** Ludowieg, A. R., Sanchez-Diaz, I., & Kalahasthi, L. K. (2023). Using Machine Learning to Predict Freight Vehicles’ Demand for Loading Zones in Urban Environments. Transportation Research Record, 2677(1), 829-842. https://doi-org.ccny-proxy1.libr.ccny.cuny.edu/10.1177/03611981221101893
 
+***Summary***:
+
 The goal was to predict the demand for loading zones at various future time horizons, helping to optimize urban freight operations. 
 
 ***Data Collection***
@@ -41,10 +43,57 @@ Occupancy 2 mins ago,Occupancy 3 mins ago,Occupancy 4 mins ago,Occupancy 5 mins 
 #### Target Variable (Calculated)
 Target Variable (Seconds until no spots)
 
-Others:
-https://dl-acm-org.ccny-proxy1.libr.ccny.cuny.edu/doi/10.1145/3421537.3421540
 
-https://ascelibrary.org/doi/full/10.1061/JTEPBS.0000073?casa_token=FeDRWwAZqmIAAAAA%3AuNTvE3_9yQEyXrK8_x3HJ8eKHj0gGsVlVuCwr81Sdg4bQ2nTbWT17x0Zoef_UkEeQp4GA4lO-oI
+## Modeling Truck Parking Demand at Commercial and Industrial Establishments
+
+***Citation:*** Guerrero, S. E., Pulikanti, S., Wieghart, B., Bryan, J. G., & Strow, T. (2023). Modeling Truck Parking Demand at Commercial and Industrial Establishments. Transportation Research Record, 2677(1), 1157-1168. https://doi.org/10.1177/03611981221103597
+
+***Summary:***
+
+Study aims to address the mismatch between truck parking needs and the availability of spaces, which often results in unsafe, disruptive, and illegal parking practices. The research combines GPS data with land use and employment data to quantify parking requirements and improve land use and development decision-making.
+
+***Data Collection***
+- ATRI data from Phoenix, AZ.
+- **GPS Data** (Latitude, longitude, timestamp, speed, truck ID): Capture the location, movement, and unique identification of trucks, helping to identify stops and parking events.
+- **Traffic Data** (Average speed, traffic volume, number of lanes on adjacent roadways): Provides contextual information on traffic conditions that can affect parking behavior.
+- **Rest Area Characteristics**: Details about the facilities available at rest areas which can influence where truck drivers choose to park.
+- **Weather Data** (Hourly precipitation): Weather conditions can impact driving and parking patterns.
+- **Land Use Data** (land use types (residential, industrial, commercial, etc.)): Helps in understanding the type of area where parking occurs and its suitability for truck parking.
+
+***Data Preprocessing***
+1. **Cleaning GPS Data:**
+    - Stop Identification: Defined by truck speed (≤2 mph) and distance criteria (DX ≤ 40 ft and DXmax ≤ 100 ft). Stops must last more than 10 minutes to be considered.
+    - Filtering Errors: Removing GPS points with unrealistic locations due to signal bouncing or loss.
+2. **Combining Datasets:**
+   - Integrate GPS stops data with land use, traffic, and weather data to create a comprehensive dataset for analysis.
+3. **Handling Missing Values**
+   - Imputation
+
+***Feature Engineering***
+
+1. **Creating New Features:**
+    - Time-Based Features: Time of day, day of the week, which can influence parking patterns.
+    - Spatial Features: Distance to nearest rest area, proximity to urban centers.
+
+2. **Interaction Terms:**
+    - Capture combined effects of multiple factors, such as interaction between traffic volume and weather conditions on parking demand.
+
+3. **Parking Metrics:**
+    - Number of Stops per Weekday: Total parking events per establishment.
+    - Cumulative Stop Duration: Total time trucks are parked per establishment.
+    - Peak Occupancy: Maximum number of trucks parked at the same time.
+
+***Modeling***
+- Statistical Models used: Linear Models, Negative Binomial Models, and Log-Linear Models.
+
+***Evaluation***
+- R-Squared (R²)
+- Log-Likelihood
+- Bayesian Information Criterion (BIC)
+
+
+
+Others:
 
 https://journals.sagepub.com/doi/full/10.1177/03611981221103597
 
