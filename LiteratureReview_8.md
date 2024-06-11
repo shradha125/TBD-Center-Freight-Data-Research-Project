@@ -44,6 +44,7 @@ Occupancy 2 mins ago,Occupancy 3 mins ago,Occupancy 4 mins ago,Occupancy 5 mins 
 Target Variable (Seconds until no spots)
 
 
+
 ## Modeling Truck Parking Demand at Commercial and Industrial Establishments
 
 ***Citation:*** Guerrero, S. E., Pulikanti, S., Wieghart, B., Bryan, J. G., & Strow, T. (2023). Modeling Truck Parking Demand at Commercial and Industrial Establishments. Transportation Research Record, 2677(1), 1157-1168. https://doi.org/10.1177/03611981221103597
@@ -62,7 +63,7 @@ Study aims to address the mismatch between truck parking needs and the availabil
 
 ***Data Preprocessing***
 1. **Cleaning GPS Data:**
-    - Stop Identification: Defined by truck speed (≤2 mph) and distance criteria (DX ≤ 40 ft and DXmax ≤ 100 ft). Stops must last more than 10 minutes to be considered.
+    - Stop Identification: Defined by truck speed (≤2 mph) and distance criteria (DX ≤ 40 ft and DXmax ≤ 100 ft). A duration longer than 10 minutes ensures that the identified stops are meaningful in terms of parking behavior.
     - Filtering Errors: Removing GPS points with unrealistic locations due to signal bouncing or loss.
       
 2. **Combining Datasets:**
@@ -93,6 +94,7 @@ Study aims to address the mismatch between truck parking needs and the availabil
 - Log-Likelihood
 - Bayesian Information Criterion (BIC)
 
+Study confirms the initial hypothesis of a mismatch, providing specific insights into where parking demand is highest and thus where interventions are most needed.
 
 
 Others:
