@@ -113,6 +113,7 @@ The solution consists of two main modules:
 **Data Collection:**
 - Data Source: The study uses parking data from the City of Melbourne, Australia, which includes information from 4300 sensors across 303 avenue sections within 35 areas.
 - Attributes: Data includes entry and exit times, park event length, zone and street names, and device IDs.
+- https://data.melbourne.vic.gov.au/explore/dataset/on-street-parking-bay-sensors/table/
 
 **Data Preprocessing:**
 - Remove Inconsistencies: Eliminate records with very brief or negative parking durations and unnecessary columns.
