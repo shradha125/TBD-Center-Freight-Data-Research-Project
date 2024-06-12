@@ -97,9 +97,49 @@ Study aims to address the mismatch between truck parking needs and the availabil
 Study confirms the initial hypothesis of a mismatch, providing specific insights into where parking demand is highest and thus where interventions are most needed.
 
 
-Others:
+## Improving delivery conditions by dynamically managing the urban parking system: Parking availability prediction
 
-https://journals.sagepub.com/doi/full/10.1177/03611981221103597
+***Citation:*** 
+H. Errousso, J. el Ouadi, S. Benhadou, H. Medromi and N. Malhene, "Improving delivery conditions by dynamically managing the urban parking system: Parking availability prediction," 2020 IEEE 13th International Colloquium of Logistics and Supply Chain Management (LOGISTIQUA), Fez, Morocco, 2020, pp. 1-6, doi: 10.1109/LOGISTIQUA49782.2020.9353890. keywords: {Supply chain management;Roads;Urban areas;Switches;Tools;Real-time systems;Task analysis;freight parking;parking availability;prediction;regression;ensemble methods},
+
+***Summary:***
+
+Study presents an approach to managing urban parking systems by predicting parking availability dynamically. The aim is to improve delivery conditions, reduce urban traffic, and enhance living conditions in cities.
+
+The solution consists of two main modules:
+- Prediction Module: Forecasts parking space availability using historical data.
+- Assignment Module: Allocates parking spaces based on predictions and real-time conditions.
+
+**Data Collection:**
+- Data Source: The study uses parking data from the City of Melbourne, Australia, which includes information from 4300 sensors across 303 avenue sections within 35 areas.
+- Attributes: Data includes entry and exit times, park event length, zone and street names, and device IDs.
+
+**Data Preprocessing:**
+- Remove Inconsistencies: Eliminate records with very brief or negative parking durations and unnecessary columns.
+- Assign Unique Identifiers: Assign unique integers to area names.
+- Time Segmentation: Model the timeline into 15-minute intervals, assigning an integer to each interval.
+- Fill Missing Data: Fill in missing entry or exit times using data from previous periods or similar times on previous days.
+- Calculate Metrics: Determine the parking capacity, number of incoming and outgoing vehicles, and the number of available spaces.
+
+**Machine Learning Models:**
+
+The study explores several ensemble regression methods to predict parking availability:
+- Bagging Methods: Random Forest, Bagging Regressor, Extra Trees.
+- Boosting Methods: Adaboost, XGBoost, Gradient Boosting Machine (GBM), LightGBM, CatBoost.
+- Stacking Models: Various combinations of bagging and boosting methods with meta-learners like Decision Tree, Random Forest, and LightGBM.
+
+**Evaluation:**
+
+The models are evaluated using:
+- Coefficient of Determination (R²)
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+
+**Results:**
+- Performance Comparison: LightGBM outperforms other boosting methods, while Random Forest is the best among bagging methods. Stacking methods show that the choice of meta-learner significantly impacts prediction accuracy.
+- Efficiency: Stacking does not significantly enhance predictive precision compared to using the best individual models, but it can help balance accuracy and computational cost.
+
+Others:
 
 https://ieeexplore-ieee-org.ccny-proxy1.libr.ccny.cuny.edu/stamp/stamp.jsp?tp=&arnumber=9353890
 
