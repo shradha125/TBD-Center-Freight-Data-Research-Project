@@ -109,11 +109,14 @@ Study presents an approach to managing urban parking systems by predicting parki
 The solution consists of two main modules:
 - Prediction Module: Forecasts parking space availability using historical data.
 - Assignment Module: Allocates parking spaces based on predictions and real-time conditions.
+    - Dynamically allocate parking spaces based on real-time conditions and forecasted availability. Adjust the designation of parking spaces (e.g., from general parking to delivery bays) as needed.    
 
 **Data Collection:**
 - Data Source: The study uses parking data from the City of Melbourne, Australia, which includes information from 4300 sensors across 303 avenue sections within 35 areas.
 - Attributes: Data includes entry and exit times, park event length, zone and street names, and device IDs.
 - https://data.melbourne.vic.gov.au/explore/dataset/on-street-parking-bay-sensors/table/
+
+These datasets are crucial for accurately predicting parking availability and dynamically managing parking space allocation to improve urban delivery
 
 **Data Preprocessing:**
 - Remove Inconsistencies: Eliminate records with very brief or negative parking durations and unnecessary columns.
