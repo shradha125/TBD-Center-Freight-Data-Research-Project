@@ -145,8 +145,6 @@ The models are evaluated using:
 
 Others:
 
-https://ieeexplore-ieee-org.ccny-proxy1.libr.ccny.cuny.edu/stamp/stamp.jsp?tp=&arnumber=9353890
-
 https://ieeexplore-ieee-org.ccny-proxy1.libr.ccny.cuny.edu/stamp/stamp.jsp?tp=&arnumber=9582619
 
   
