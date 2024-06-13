@@ -114,7 +114,7 @@ The solution consists of two main modules:
 **Data Collection:**
 - Data Source: The study uses parking data from the City of Melbourne, Australia, which includes information from 4300 sensors across 303 avenue sections within 35 areas.
 - Attributes: Data includes entry and exit times, park event length, zone and street names, and device IDs.
-- https://data.melbourne.vic.gov.au/explore/dataset/on-street-parking-bay-sensors/table/
+- [https://data.melbourne.vic.gov.au/explore/dataset/on-street-parking-bay-sensors/table/](https://data.melbourne.vic.gov.au/explore/dataset/on-street-car-parking-sensor-data-2017/information/) 
 
 These datasets are crucial for accurately predicting parking availability and dynamically managing parking space allocation to improve urban delivery
 
