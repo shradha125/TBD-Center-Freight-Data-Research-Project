@@ -1,4 +1,4 @@
-## Task 1: Truck Volume - To evaluate the traffic volume
+## Task 1: Truck Volume Analysis - To evaluate the traffic volume
 
 **Metrics: Difference in Truck Volume from Non-peak to Peak Hours**
 - Compared the Segment ID's with open source NYC DCP's open source data to get the latest active Segment ID's.
@@ -20,3 +20,11 @@
 - Result shows the Weekday Morning counts high volume during the peak hours.
 
 ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/2cc0b726-c966-42ed-b56f-c2dca0f89c52)
+
+
+## Task 2: Truck Origin-Destination Analysis - To analyse truck trip mobility
+
+**Metrics: Number of trucks trips origin per spatial area and time period, Number of trucks trips destination per spatial area and time period**
+
+
+![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/a7851c54-7fb2-4149-a764-fd0be79b2a52)
