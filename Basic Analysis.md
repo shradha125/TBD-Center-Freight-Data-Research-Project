@@ -26,5 +26,10 @@
 
 **Metrics: Number of trucks trips origin per spatial area and time period, Number of trucks trips destination per spatial area and time period**
 
+![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/fa804318-0203-4770-98c8-89b6b79e45c7)
+
+
+![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/57ecb963-cc28-4fa4-b4a4-730246b4b960)
+
 
 ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/a7851c54-7fb2-4149-a764-fd0be79b2a52)
