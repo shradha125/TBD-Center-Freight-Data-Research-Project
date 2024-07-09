@@ -25,11 +25,25 @@
 ## Task 2: Truck Origin-Destination Analysis - To analyse truck trip mobility
 
 **Metrics: Number of trucks trips origin per spatial area and time period, Number of trucks trips destination per spatial area and time period**
+- Graph helps visualize the number of truck trips originating from and concluding in the top 20 sub-geographies.
+- Grouped by origin and destination to get the total number of trips per origin and destination and then displayed the top 20 Origins and Destinations.
+- By comparing the two plots, we can identify sub-geographies that are both major origins and destinations, suggesting areas that are both significant sources and sinks for truck traffic.
+- These insights are valuable for urban planners and logistics companies to optimize routes, manage traffic congestion, and improve supply chain efficiency. Areas with high trip counts might need better infrastructure or traffic management solutions.
 
 ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/fa804318-0203-4770-98c8-89b6b79e45c7)
 
 
+- Bar plot to visualize the number of truck trips for three specific analyses (TAZ, NTA, IBZ) across different time periods (timeBin).
+- Grouped by analysis and timeBin and calculated the sum of thr truck trips.
+- High Truck Activity: The high volume of truck activity during the morning peak hours indicates a need for improved traffic management strategies to reduce congestion during this time.
+
 ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/57ecb963-cc28-4fa4-b4a4-730246b4b960)
 
+
+**Understand the volume of trips between different pairs of sub-geographies, making it easier to analyze traffic patterns and relationship**
+- Grouped by both origin and destination to get the sum of trip counts.
+- The heatmap highlights the pairs of origin and destination sub-geographies with the highest volumes of truck trips. These high-volume routes can be crucial for logistics planning and infrastructure development.
+- This helps in understanding which areas are major sources and destinations of truck traffic.
+- This heatmap serves as a visual representation to make informed decisions on managing and optimizing truck traffic in urban settings.
 
 ![image](https://github.com/shradha125/TBD-Center-Freight-Data-Research-Project/assets/69496783/a7851c54-7fb2-4149-a764-fd0be79b2a52)
