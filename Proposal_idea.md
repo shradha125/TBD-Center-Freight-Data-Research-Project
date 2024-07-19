@@ -1,4 +1,4 @@
-### Specific Policy for Parking Management
+# Specific Policy for Parking Management
 
 #### Policy Overview
 **Policy**: Implement a dynamic parking management system to optimize the utilization of loading zones (LZ) in NYC and reduce illegal parking incidents.
@@ -79,3 +79,96 @@
    - **Impact Analysis**: Create detailed reports and visualizations showing the impact of dynamic LZ allocation and idling reduction measures on LZ utilization, idling times, and illegal parking incidents.
    - **Recommendations**: Provide insights into optimal LZ allocation strategies, idling reduction measures, and areas for policy adjustments based on the simulation results.
    - **Scenario Comparisons**: Present comparisons of different scenarios to help policymakers choose the most effective implementation strategy.
+
+
+# Policy: Truck Route Optimization and Emissions Reduction
+
+#### Policy Overview
+- **Policy**: Implement optimized routing to reduce overall truck volumes on congested streets and minimize CO2 emissions from freight trucks in NYC.
+- **Relevant Dataset**: Dataset B.2 (Matrix with truck trip number for each origin and destination combination) and Dataset D (AVL Data).
+- **Goal**: Estimate emissions and reduce the number of trips on highly congested streets, transitioning from diesel to electric trucks where possible.
+
+### Steps for Policy Implementation
+
+### 1. Data Preparation
+
+#### Extract and Clean Data
+- **Extract Relevant Data**:
+  - From Dataset D (AVL Data), extract columns like `huntspt_avl.gpslat`, `huntspt_avl.gpslong`, `huntspt_avl.msgtime`, and `huntspt_avl.speed`.
+  - From Dataset B.2 (OD Matrix), extract origin-destination pairs, truck counts, and temporal data (peak and off-peak periods).
+- **Data Cleaning**:
+  - Address any inaccuracies in GPS data.
+  - Handle temporal gaps by interpolating missing values.
+  - Synchronize data with consistent time intervals.
+
+### 2. Model Development
+
+#### Predict Truck Volume and Emissions
+- **Develop a Predictive Model**:
+  - Use historical AVL and OD data to predict truck volumes and emissions.
+  - Incorporate truck types, weight, and distance traveled.
+
+#### Implement Policy Inputs
+- **Optimized Routing**:
+  - Use historical and predictive traffic data to minimize travel time and distance.
+- **Idling Reduction Measures**:
+  - Implement policies to reduce idling times at delivery and loading zones.
+- **Incentives for Compliance**:
+  - Offer incentives for adhering to optimized routes and idling reduction measures.
+
+### 3. Simulation
+
+#### Run Simulation for Policy Scenarios
+- **Define Policy Parameters**:
+  - Include parameters for optimized routing (e.g., shortest path, least congested routes).
+  - Implement measures to transition to electric trucks.
+- **Run Simulations**:
+  - Generate multiple scenarios with different routing strategies and measure emissions.
+
+### 4. Analysis and Interpretation
+
+#### Evaluate Policy Impact
+- **Emissions Reduction**:
+  - Estimate reductions in CO2 emissions resulting from optimized routing and electric truck adoption.
+- **Truck Volume**:
+  - Assess changes in truck volumes on different streets.
+- **Community Impact**:
+  - Evaluate the impact on communities, especially those affected by high truck volumes and emissions.
+
+### 5. Deployment and Monitoring
+
+#### Implement and Monitor the System
+- **Deploy the System**:
+  - Use the predictive model and simulation results to inform routing decisions and policies.
+- **Monitor and Adjust**:
+  - Continuously monitor key metrics and adjust policies as needed to optimize performance.
+
+### Detailed Implementation Steps
+
+1. **Data Preparation**:
+   - Extract GPS coordinates, vehicle types, idling times, and speed patterns from Dataset D.
+   - Extract origin-destination pairs, truck counts, and temporal data (peak and off-peak periods) from Dataset B.2.
+   - Clean the data by addressing any inaccuracies in GPS data and handling temporal gaps by interpolating missing values.
+
+2. **Model Development**:
+   - Develop a predictive model using historical AVL data and OD data to predict truck volumes and emissions.
+   - Incorporate factors such as truck types, weight, and distance traveled into the model.
+
+3. **Policy Inputs**:
+   - Optimize routing by using historical and predictive traffic data to minimize travel time and distance.
+   - Implement measures to reduce idling times at delivery and loading zones.
+   - Offer incentives for adhering to optimized routes and idling reduction measures.
+
+4. **Simulation**:
+   - Define policy parameters, including optimized routing and idling reduction measures.
+   - Run simulations to generate multiple scenarios with different routing strategies and measure emissions.
+
+5. **Analysis and Interpretation**:
+   - Evaluate the impact of the policy on emissions reduction, truck volumes, and community impact.
+   - Provide detailed reports and visualizations to policymakers.
+
+6. **Deployment and Monitoring**:
+   - Deploy the predictive model and simulation results to inform routing decisions and policies.
+   - Continuously monitor key metrics and adjust policies as needed to optimize performance.
+
+By following these steps, can implement a specific policy for truck route optimization and emissions reduction using historical AVL data. This system leverages predictive modeling and simulation to optimize routing, reduce emissions, and improve overall efficiency. I might think of this as this was an issue raised by DOT as well. 
