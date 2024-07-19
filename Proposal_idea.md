@@ -172,3 +172,129 @@
    - Continuously monitor key metrics and adjust policies as needed to optimize performance.
 
 By following these steps, can implement a specific policy for truck route optimization and emissions reduction using historical AVL data. This system leverages predictive modeling and simulation to optimize routing, reduce emissions, and improve overall efficiency. I might think of this as this was an issue raised by DOT as well. 
+
+
+# More polished version:
+
+To incorporate route optimization into the policy, we can develop a complementary policy that targets both idling reduction and optimized routing. This combined approach will further reduce CO2 emissions and improve overall efficiency. Below are the detailed steps for implementing a policy focused on both idling reduction and route optimization using Dataset D (AVL Data).
+
+### Combined Policy: Idling Reduction and Route Optimization
+
+#### Policy Overview
+- **Policy**: Implement measures to reduce idling times and optimize truck routes in NYC to minimize CO2 emissions.
+- **Relevant Dataset**: Dataset D (AVL Data).
+- **Goal**: Reduce CO2 emissions by minimizing idling times and optimizing truck routes for efficiency.
+
+### Steps for Policy Implementation
+
+### 1. Data Preparation
+
+#### Extract and Clean Data
+- **Extract Relevant Data**:
+  - Focus on `huntspt_avl.gpslat`, `huntspt_avl.gpslong`, `huntspt_avl.msgtime`, `huntspt_avl.ignition_status`, `huntspt_avl.speed`, and `huntspt_avl.odometer`.
+- **Data Cleaning**:
+  - Filter out inaccurate or outlier GPS data.
+  - Address missing data through interpolation.
+  - Synchronize data to consistent time intervals for accurate analysis.
+
+### 2. Model Development
+
+#### Identify Idling Events
+- **Define Idling**:
+  - An idling event is defined as when the ignition is on, but the vehicle speed is zero or very low.
+- **Detect Idling Events**:
+  - Use the `huntspt_avl.ignition_status` and `huntspt_avl.speed` columns to identify and timestamp idling events.
+
+#### Estimate Emissions
+- **Calculate Emissions**:
+  - Develop a model to estimate CO2 emissions based on idling times, considering factors such as truck type and engine size.
+
+#### Optimize Routes
+- **Route Optimization Algorithm**:
+  - Implement an algorithm (e.g., Dijkstra's, A*, or a custom algorithm) to find the shortest or fastest routes based on historical traffic data.
+- **Traffic Data Integration**:
+  - Use historical AVL data to identify high-traffic areas and optimal routes.
+- **Constraints**:
+  - Consider constraints such as delivery windows, truck size restrictions, and traffic regulations.
+
+### 3. Policy Implementation
+
+#### Implement Idling Reduction Measures
+- **Policy Parameters**:
+  - Set specific idling time limits for delivery and loading zones.
+  - Introduce fines or incentives to enforce compliance with idling reduction measures.
+- **Driver Training and Awareness**:
+  - Conduct training sessions for drivers on the importance of reducing idling and how to comply with the new policies.
+- **Technology Integration**:
+  - Equip trucks with automatic engine shut-off systems if idling exceeds the specified time limit.
+
+#### Implement Route Optimization
+- **Optimized Routing**:
+  - Use the route optimization algorithm to plan efficient routes for deliveries.
+  - Provide real-time route recommendations to drivers via GPS systems.
+- **Compliance Monitoring**:
+  - Monitor compliance with optimized routes and adjust routing strategies as needed.
+
+### 4. Simulation
+
+#### Run Simulation for Policy Scenarios
+- **Simulation Model**:
+  - Use historical AVL data to simulate truck movements, idling, and routing under various scenarios.
+- **Define Scenarios**:
+  - Scenario 1: Current idling patterns and routing without intervention.
+  - Scenario 2: Implementation of idling reduction measures.
+  - Scenario 3: Implementation of route optimization measures.
+  - Scenario 4: Combined implementation of idling reduction and route optimization measures.
+- **Run Simulations**:
+  - Compare CO2 emissions, idling times, and route efficiency across different scenarios to evaluate the impact of the policy.
+
+### 5. Analysis and Interpretation
+
+#### Evaluate Policy Impact
+- **Emissions Reduction**:
+  - Estimate the reduction in CO2 emissions resulting from decreased idling times and optimized routing.
+- **Idling Times**:
+  - Measure changes in idling durations and frequency.
+- **Route Efficiency**:
+  - Assess improvements in delivery times and on-time delivery rates.
+- **Compliance Rates**:
+  - Evaluate the compliance rates of drivers with the new idling reduction and routing optimization policies.
+
+### 6. Deployment and Monitoring
+
+#### Implement and Monitor the Policy
+- **Deploy the Policy**:
+  - Roll out the idling reduction and route optimization policy city-wide, focusing on key delivery zones and high-traffic areas.
+- **Continuous Monitoring**:
+  - Use AVL data to continuously monitor idling times and route compliance.
+  - Adjust policy parameters as needed based on real-time data and feedback.
+
+### Detailed Implementation Steps
+
+1. **Data Preparation**:
+   - Extract GPS coordinates, ignition status, speed, odometer, and timestamps from Dataset D.
+   - Clean the data by addressing inaccuracies and interpolating missing values.
+
+2. **Model Development**:
+   - Define idling events using ignition status and speed data.
+   - Calculate CO2 emissions for identified idling events based on truck type and engine size.
+   - Implement a route optimization algorithm to plan efficient routes for deliveries.
+
+3. **Policy Implementation**:
+   - Implement specific idling time limits and enforce them through fines or incentives.
+   - Conduct training for drivers and equip trucks with automatic engine shut-off systems.
+   - Use the route optimization algorithm to plan efficient routes and provide real-time recommendations.
+
+4. **Simulation**:
+   - Develop a simulation model to analyze the impact of idling reduction and route optimization policies.
+   - Run simulations comparing current idling patterns and routing with the new policies.
+
+5. **Analysis and Interpretation**:
+   - Evaluate the reduction in CO2 emissions, changes in idling times, and improvements in route efficiency.
+   - Assess compliance rates and overall policy effectiveness.
+
+6. **Deployment and Monitoring**:
+   - Deploy the policy and continuously monitor its impact using AVL data.
+   - Make adjustments to the policy based on real-time data and feedback.
+
+By combining idling reduction with route optimization, this policy aims to maximize CO2 emissions reduction and improve the efficiency of truck deliveries in NYC.
