@@ -23,5 +23,6 @@ The reviewed studies illustrate the transformative impact of machine learning on
 - [Nichol, A. Q., & Dhariwal, P. (2021). Improved Denoising Diffusion Probabilistic Models.](https://proceedings.mlr.press/v139/nichol21a.html) Proceedings of the 38th International Conference on Machine Learning.
 - [Araujo, A. C., & Etemad, A. (2021). End-to-End Prediction of Parcel Delivery Time With Deep Learning for Smart-City Applications.](https://doi.org/10.1109/JIOT.2021.3077007) IEEE Internet of Things Journal, 8(23), 17043-17056.
 - Shuaian Wang, Ran Yan, Fundamental challenge and solution methods in prescriptive analytics for freight transportation, Transportation Research Part E: Logistics and Transportation Review, Volume 169, 2023, 102966, ISSN 1366-5545, https://doi.org/10.1016/j.tre.2022.102966. (https://www.sciencedirect.com/science/article/pii/S136655452200343X)
+- Metaxatos, P. (2014). Synthetic Data Generation for Small-Area Demand Forecasting of Freight Flows. Operations and Supply Chain Management: An International Journal, 2(1), 42-51.
 
 -----
