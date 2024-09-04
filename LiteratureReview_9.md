@@ -60,3 +60,7 @@ Metrics
 Errors were generally lower for deliveries starting earlier in the day and for those with longer distances, likely due to less traffic variability on highways.
 
 Spatial and temporal patterns were identified, indicating that certain depots and times of day are more predictable than others.
+
+**Synthetic Data Generation Survey paper:**
+
+https://arxiv.org/html/2302.04062v6 
