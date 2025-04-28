@@ -26,4 +26,5 @@ The reviewed studies illustrate the transformative impact of machine learning on
 - Metaxatos, P. (2014). Synthetic Data Generation for Small-Area Demand Forecasting of Freight Flows. Operations and Supply Chain Management: An International Journal, 2(1), 42-51.
 - Boeing, G. (2024). Modeling and Analyzing Urban Networks and Amenities with OSMnx. Working paper. https://geoffboeing.com/publications/osmnx-paper/
 
+
 -----
